@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app_container{
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(4,1fr)
+}
+
+.app_header{
+  width: 100%;
+  height: 100px;
+  background-color: pink;
+  text-align: end;
+  line-height: 50px;
+}
+.app_score {
+  margin-right:100px;
+}
